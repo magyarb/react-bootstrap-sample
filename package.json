@@ -1,0 +1,23 @@
+{
+  "name": "test2",
+  "version": "0.1.0",
+  "private": true,
+  "_comment": {
+    "comment": "specify the address of your backend here",
+    "homepage": "http://localhost:3456/",
+    "proxy": "http://localhost:3456/"
+  },
+  "dependencies": {
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-transition": "^1.1.2",
+    "react-scripts": "^1.0.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
